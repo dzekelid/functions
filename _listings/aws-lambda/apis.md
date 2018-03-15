@@ -29,7 +29,7 @@ apis:
   tags: Functions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/functions/master/_listings/aws-lambda/action-getfunctionconfiguration-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/functions/master/_listings/aws-lambda/action-listfunctions-get.md
 x-common:
 - type: x-authentication
   url: http://docs.aws.amazon.com/lambda/latest/dg/lambda-auth-and-access-control.html
