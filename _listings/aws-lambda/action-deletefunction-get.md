@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteFunction&k=1:
+  /?Action=DeleteFunction:
     get:
       summary: ' Delete Function '
       description: Deletes the specified Lambda function code and configuration
