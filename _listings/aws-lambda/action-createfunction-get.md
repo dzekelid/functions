@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateFunction&k=1:
+  /?Action=CreateFunction:
     get:
       summary: ' Create Function '
       description: Creates a new Lambda function
