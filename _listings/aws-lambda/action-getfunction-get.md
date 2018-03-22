@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetFunction&k=1:
+  /?Action=GetFunction:
     get:
       summary: ' Get Function '
       description: "Returns the configuration information of the Lambda function and
