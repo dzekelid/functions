@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lambda API
+  title: AWS Lambda API Update Function Configuration
   version: 1.0.0
+  description: Updates the configuration parameters for the specified Lambda function
+    by using the values provided in the request.
 schemes:
 - http
 produces:
