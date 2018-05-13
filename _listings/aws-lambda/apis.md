@@ -30,15 +30,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/functions/master/_listings/aws-lambda/action-updatefunctionconfiguration-get.md
-- name: AWS Lambda API Update Function Code
-  description: Updates the code for the specified Lambda function.
+- name: AWS Lambda API Update Function Configuration
+  description: Updates the configuration parameters for the specified Lambda function
+    by using the values provided in the request.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
   humanURL: http://docs.aws.amazon.com/lambda/
   baseURL: http:://{host}//
   tags: Functions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/functions/master/_listings/aws-lambda/action-updatefunctioncode-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/functions/master/_listings/aws-lambda/action-updatefunctionconfiguration-get.md
 x-common:
 - type: x-authentication
   url: http://docs.aws.amazon.com/lambda/latest/dg/lambda-auth-and-access-control.html
