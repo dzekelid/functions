@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lambda API
+  title: AWS Lambda API Update Function Code
   version: 1.0.0
+  description: Updates the code for the specified Lambda function.
 schemes:
 - http
 produces:
