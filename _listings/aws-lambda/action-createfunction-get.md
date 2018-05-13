@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lambda API
+  title: AWS Lambda API Create Function
   version: 1.0.0
+  description: Creates a new Lambda function.
 schemes:
 - http
 produces:
