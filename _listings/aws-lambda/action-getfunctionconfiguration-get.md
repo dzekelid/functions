@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lambda API
+  title: AWS Lambda API Get Function Configuration
   version: 1.0.0
+  description: Returns the configuration information of the Lambda function.
 schemes:
 - http
 produces:
