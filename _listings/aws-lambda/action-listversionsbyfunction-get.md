@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lambda API
+  title: AWS Lambda API List Versions By Function
   version: 1.0.0
+  description: List all versions of a function.
 schemes:
 - http
 produces:
