@@ -30,15 +30,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/functions/master/_listings/aws-lambda/action-updatefunctionconfiguration-get.md
-- name: AWS Lambda API Create Function
-  description: Creates a new Lambda function.
+- name: AWS Lambda API Delete Function
+  description: Deletes the specified Lambda function code and configuration.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
   humanURL: http://docs.aws.amazon.com/lambda/
   baseURL: http:://{host}//
   tags: Functions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/functions/master/_listings/aws-lambda/action-createfunction-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/functions/master/_listings/aws-lambda/action-deletefunction-get.md
 x-common:
 - type: x-authentication
   url: http://docs.aws.amazon.com/lambda/latest/dg/lambda-auth-and-access-control.html
